@@ -1,3 +1,29 @@
+
+
+<use name=FWCore/Utilities>
+<use name=FWCore/Framework>
+<use name=DataFormats/TrackReco>
+<use name=clhep>
+<use name=FWCore/Framework>
+<use name=Foundation/PluginManager>
+<use name=FWCore/ParameterSet>
+<use name=Geometry/TrackerGeometryBuilder>
+<use name=Geometry/Records>
+<use name=DatFormats/VertexReco>
+<use name=rootcintex>
+<use name=root>
+
+
+<library file=VertexAnalyzer.cc name=VertexAnalyzer>
+  <use name=FWCore/Framework>
+  <flags SEAL_PLUGIN_NAME="VertexAnalyzer">
+</library>
+
+
+
+
+
+
 <use name=DataFormats/VertexReco>
 
 <bin name="testDataFormatsVertexReco" file="testVertex.cc,testRunner.cpp">
