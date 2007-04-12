@@ -16,7 +16,7 @@
 
 <library file=VertexAnalyzer.cc name=VertexAnalyzer>
   <use name=FWCore/Framework>
-  <flags SEAL_PLUGIN_NAME="VertexAnalyzer">
+  <flags EDM_PLUGIN=1>
 </library>
 
 
