@@ -7,7 +7,7 @@
  *
  * \author Luca Lista, INFN
  *
- * \version $Id: Vertex.h,v 1.23 2006/11/15 10:59:48 llista Exp $
+ * \version $Id: Vertex.h,v 1.25 2007/02/12 16:29:02 speer Exp $
  *
  */
 #include <Rtypes.h>
@@ -15,7 +15,6 @@
 #include "DataFormats/Math/interface/Point3D.h"
 #include "DataFormats/TrackReco/interface/TrackFwd.h"
 #include "DataFormats/TrackReco/interface/Track.h"
-#include "DataFormats/VertexReco/interface/VertexFwd.h"
 #include "DataFormats/Common/interface/AssociationMap.h"
 // #include "DataFormats/Common/interface/OneToValue.h"
 #include <iostream>

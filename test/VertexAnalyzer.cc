@@ -1,18 +1,15 @@
 #include <memory>
 
-#include "FWCore/Framework/interface/Frameworkfwd.h"
 #include "FWCore/Framework/interface/EDAnalyzer.h"
 
 #include "FWCore/Framework/interface/Event.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
 
-#include "FWCore/Framework/interface/ESHandle.h"
 //#include "FWCore/Framework/interface/EventSetup.h"
 
 #include "DataFormats/VertexReco/interface/Vertex.h"
 #include "DataFormats/VertexReco/interface/VertexFwd.h"
 
-#include "FWCore/Framework/interface/ESHandle.h"
 
 #include <iostream>
 #include <string>

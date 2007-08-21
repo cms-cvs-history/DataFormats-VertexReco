@@ -3,6 +3,10 @@
 #include "DataFormats/Common/interface/RefProd.h"
 #include "DataFormats/Common/interface/RefVector.h"
 #include "DataFormats/VertexReco/interface/Vertex.h"
+#include "Math/Cartesian3D.h" 
+#include "Math/Polar3D.h" 
+#include "Math/CylindricalEta3D.h" 
+#include "DataFormats/VertexReco/interface/VertexFwd.h" 
 #include <vector>
 #include <utility>
 
