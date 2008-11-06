@@ -37,7 +37,7 @@ class VertexAnalyzer : public edm::EDAnalyzer {
     if (tC.size() >0){
       std::cout<<" PARAMS "<<tC.front().position()<< std::endl;
       std::cout<<" COV "<<tC.front().covariance()<< std::endl;
-      std::cout <<"error  " <<tC.front().error(2,2)<< std::endl;
+      std::cout <<"error  " <<tC.front().covariance(2,2)<< std::endl;
     }
 
   }
