@@ -4,7 +4,6 @@
 <use name=FWCore/Framework>
 <use name=DataFormats/TrackReco>
 <use name=clhep>
-<use name=FWCore/Framework>
 <use name=FWCore/PluginManager>
 <use name=FWCore/ParameterSet>
 <use name=Geometry/TrackerGeometryBuilder>
@@ -15,7 +14,6 @@
 
 
 <library file=VertexAnalyzer.cc name=VertexAnalyzer>
-  <use name=FWCore/Framework>
   <flags EDM_PLUGIN=1>
 </library>
 
@@ -23,8 +21,6 @@
 
 
 
-
-<use name=DataFormats/VertexReco>
 
 <bin name="testDataFormatsVertexReco" file="testVertex.cc,testRunner.cpp">
  <use name=cppunit>
