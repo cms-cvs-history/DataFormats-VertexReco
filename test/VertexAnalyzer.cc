@@ -43,6 +43,6 @@ class VertexAnalyzer : public edm::EDAnalyzer {
   }
 };
 
-DEFINE_SEAL_MODULE();
-DEFINE_ANOTHER_FWK_MODULE(VertexAnalyzer);
+
+DEFINE_FWK_MODULE(VertexAnalyzer);
 
